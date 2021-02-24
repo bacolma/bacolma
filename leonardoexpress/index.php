@@ -28,6 +28,32 @@
     <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
+   <!-- <a class="appWhatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=51968183413&text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">
+  <img src="#" alt="whatsapp"> 
+  </a>-->
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="102786578532147">
+      </div>z
     
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -218,7 +244,43 @@
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2021 Leonardoexpress, Inc. &middot; </p>
   </footer>
+
+  <div class="container"> 
+  <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- cabecera del diálogo -->
+          <div class="modal-header">
+            <h4 class="modal-title">AUN EN ESTA ADVERSIDAD ESTAMOS CONTIGO LLEVANDO TUS ENCOMIENDA EN NUESTROS HORARIOS DE ATENCION</h4>
+          </div>
+    
+          <!-- cuerpo del diálogo -->
+          <div class="modal-body">
+            AUN EN ESTA ADVERSIDAD ESTAMOS CONTIGO LLEVANDO TUS ENCOMIENDA
+          </div>
+    
+          <!-- pie del diálogo -->
+          <div class="modal-footer">
+            #Leonardoexpress
+          </div>
+    
+        </div>
+      </div>
+    </div> 
+    
+  </div>
+
 </main>
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+        $(document).ready(function(){
+          $("#myModal").modal('show');
+        });
+</script>
+
+</body>
 </html>

@@ -1,3 +1,12 @@
-.sedes {
-    text-align: center;
-  }
+  .appWhatsapp{
+    position: fixed;
+    right: 26px;
+    bottom: 100px;
+    width: 60px;
+    z-index:1000px;
+   }
+   
+   .appWhatsapp img{
+     width:100%;
+     height: auto;
+   }
