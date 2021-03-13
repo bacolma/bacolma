@@ -90,7 +90,7 @@
          <small class="d-block mb-3 text-muted">Ramcolba&copy; 2021</small>
       </div>
       <div class="col-6 col-md">
-        <h5>Features</h5>
+        <h5>Servicios</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary" href="#">Cool stuff</a></li>
           <li><a class="link-secondary" href="#">Random feature</a></li>
@@ -101,7 +101,7 @@
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>Resources</h5>
+        <h5>Destinos</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary" href="#">Resource</a></li>
           <li><a class="link-secondary" href="#">Resource name</a></li>
@@ -110,7 +110,7 @@
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>About</h5>
+        <h5>Contactos</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary" href="#">Team</a></li>
           <li><a class="link-secondary" href="#">Locations</a></li>

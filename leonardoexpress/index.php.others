@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/lex.ico">
+
+    <title>LeonardoExpress</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css"       rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="css/navmenu-reveal.css"      rel="stylesheet">
+    <link href="css/carousel.css"            rel="stylesheet">
+    <link href="css/leonardoexpress.css"            rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body> 
+<header>
+  <nav class="navbar navbar-expand-md fixed-top"  style="width:100%; background-color:#002a46;font-color:#ffff;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Leonardo Express</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="img/lex.ico"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agencias</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>  
+<main>
+<div class="container">    
+        <div class="row">
+                          <div class="col-sm-12 padding-0">
+                                  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                                          <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                          </div>
+
+                                          <div class="carousel-inner">
+
+                                              <div class="carousel-item imgnormalizada active">
+                                                <img src="img/carousel1.jpg" width="100" height="100" focusable="false" ></img>
+                                                <div class="container">
+                                                  <div class="carousel-caption text-start">
+                                                    <h1>RAPIDEZ.</h1>
+                                                    <p>Ayudamos a nuestros clientes a obtener resultados en el más corto tiempo.</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="carousel-item imgnormalizada">
+                                                <img src="img/carousel2.jpg" width="100" height="100" focusable="false" ></img>
+                                                  <div class="container">
+                                                  <div class="carousel-caption">
+                                                    <h1>CONFIANZA.</h1>
+                                                    <p>Llevamos años en el mercado y nuestra experiencia con nuestros clientes nos avala.</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="carousel-item imgnormalizada">
+                                                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                                                <img src="img/carousel3.jpg" width="100" height="100" focusable="false" ></img>
+                                              
+                                                <div class="container">
+                                                  <div class="carousel-caption text-end">
+                                                    <h1>SEGURIDAD.</h1>
+                                                    <p>Contamos con todas las medidas necesarias para que su carga llegue a buen destino..</p>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+
+                                          </div>
+
+                                          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                          </button>
+
+                                          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                          </button>
+                                          </div>
+                                  </div>
+                          </div>      
+         </div> 
+         <div class="row">
+                      <div class="col-sm-12">
+                            <iframe 
+                                                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.85767740401266!2d-77.02817547220346!3d-12.062581121434574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8be060470bf%3A0xed22b3318b4e2f31!2sJavier%20Luna%20Pizarro%20374%2C%20Cercado%20de%20Lima%2015033!5e0!3m2!1ses-419!2spe!4v1614187596764!5m2!1ses-419!2spe" 
+                                                      width="100%" 
+                                                      height="500"
+                                                      style="align:center" >
+                                                </iframe>
+                      </div> 
+         </div> 
+          <div class="row">  
+                              <div class="col-sm-4">
+                                  <div class="option-container">
+                                    <div class="option-grid">
+                                      <div id="show-busqueda" class="square row-1"><br>
+                                      <button type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target="#buscapedido">
+                                        <img src="img/shipped.png" alt="Busca Pedido" class="square-image">
+                                      </button>   <br>                                     
+                                        <p class="square-title f-Fibra f-700 c-white f-28">BUSCA TU PEDIDO</p>
+                                        <p class="square-title f-Fibra f-400 c-white f-18">Sigue el rastro a tu encomienda</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="option-container">
+                                    <div class="option-grid">
+                                      <div id="show-busqueda" class="square row-1"><br>
+                                        <img src="img/caja.png" alt="con" class="square-image"><br>
+                                        <p class="square-title f-Fibra f-700 c-white f-28">CONSULTA TARIFAS</p>
+                                        <p class="square-title f-Fibra f-400 c-white f-18">Averigua los costos por envio segun destino</p>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="option-container">
+                                    <div class="option-grid">
+                                      <div id="show-busqueda" class="square row-1"><br><br>
+                                        <img src="img/pago.png" alt="con" class="square-image">
+                                        <p class="square-title f-Fibra f-700 c-white f-28">CONSULTA TU COTIZACION</p>
+                                        <p class="square-title f-Fibra f-400 c-white f-18">Te afrcemos una ventana para que consultes tu presupuestos</p>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+          </div> 
+
+          <div class="row">  
+                              <div class="col-sm-4">
+                                  <div class="option-container">
+                                    <div class="option-grid">
+                                      <div id="show-busqueda" class="square row-1"><br><br>
+                                        <img src="img/aceptado.png" alt="terminos y condiciones" class="square-image">
+                                        <p class="square-title f-Fibra f-700 c-white f-28">TERMINOS Y CONDICIONES</p>
+                                        <p class="square-title f-Fibra f-400 c-white f-18">Conoce nuestros terminos y condiciones</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="option-container">
+                                    <div class="option-grid">
+                                      <div id="show-busqueda" class="square row-1"><br><br>
+                                        <img src="img/ayudar.png" alt="con" class="square-image">
+                                        <p class="square-title f-Fibra f-700 c-white f-28">AYUDA</p>
+                                        <p class="square-title f-Fibra f-400 c-white f-18">Te orientamos en tu proceso de envio</p>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="option-container">
+                                    <div class="option-grid">
+                                      <div id="show-busqueda" class="square row-1"><br><br>
+                                        <img src="img/literatura.png" alt="con" class="square-image">
+                                        <p class="square-title f-Fibra f-700 c-white f-28">LIBRO DE RECLAMOS</p>
+                                        <p class="square-title f-Fibra f-400 c-white f-18">Expresanos tus opiniones y puntos a mejorar</p>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+            </div>
+
+          <div class="row" style="background-color:black;">  
+                  <div class="col-sm-12">
+                        <div class="container">
+                              <figure class="text-center pt-5">
+                                   <img src="img/logo-footer.png" alt="Leonardo Express logo" class="footer-logo">
+                              </figure> 
+                            <div>
+                              <ul class="menu-list-footer">
+                                  <a href="#/" aria-current="page" class="none-link router-link-exact-active router-link-active">
+                                  <li class="hvr-underline-from-left2 f-Fira f-14 f-400">INCIO</li></a> 
+                                  <a href="#/servicios" class="   ">
+                                  <li class="hvr-underline-from-left2 f-Fira f-14 f-400">SERVICIOS</li></a> 
+                                  <a href="#/agencias" class="none-link">
+                                  <li class="hvr-underline-from-left2 f-Fira f-14 f-400">AGENCIAS</li></a> 
+                                  <a href="#/contacto" class="none-link">
+                                  <li class="hvr-underline-from-left2 f-Fira f-14 f-400">CONTACTO</li></a> 
+                                  <li class="hvr-underline-from-left2 f-Fira f-14 f-400">
+                                  <a href="#" target="_blank" class="c-white">BLOG</a></li> 
+                                  <li class="social-icon-container-footer">
+                                      <div class="social-icon">
+                                        <div class="icon-social">
+                                          <a href="#" target="_blank">
+                                          <img src="img/facebook.webp" alt="facebook"></a></div> 
+                                        <div class="icon-social">
+                                          <a href="#" target="_blank">
+                                          <img src="img/twitter.webp" alt="twitter"></a></div> 
+                                        <div class="icon-social"><a href="#" target="_blank">
+                                        <img src="img/linkedin.webp" alt="linkedin"></a></div> 
+                                        <div class="icon-social"><a href="#" target="_blank">
+                                        <img id="imgInstragram" src="images/INSTAGRAM2.webp" alt="instagram"></a></div>
+                                      </div>
+                                    </li>
+                                </ul>
+                              </div> 
+                              <div class="line-white mt-4 mb-5"></div> 
+                              <div class="bloque-direction text-white">
+                                <div class="row">
+                                  <article class="col-2 col-md-2">
+                                    <img src="#" alt="icon leonardoexpress">
+                                  </article> 
+                                  <article class="col-10 col-md-10">
+                                    <p class="text-left f-14 f-Fira">JR. ANTONIO RAYMONDI<br> Nº 113-117 - LA VICTORIA</p>
+                                  </article>
+                                </div> 
+                                <div class="row">
+                                  <article class="col-2 col-md-2">
+                                    <img src="#" alt="icon leonardoexpress">
+                                  </article> 
+                                  <article class="col-10 col-md-10">
+                                    <p class="text-left f-14 f-Fira">JR. LUNA PIZARRO<br> N° 701 - LA VICTORIA</p>
+                                  </article>
+                                </div> 
+                                <div class="row">
+                                  <article class="col-2 col-md-2">
+                                    <img src="#" alt="icon leonardoexpress">
+                                  </article> 
+                                  <article class="col-10 col-md-10">
+                                    <p class="text-left f-14 f-Fira">AV. MÉXICO<br> N° 1187 - LA VICTORIA</p>
+                                  </article>
+                                </div> 
+                                <div class="row justify-content-center footer-telefono">
+                                  <article class="col-10">
+                                    <p class="text-right f-14 f-Fira">CENTRAL DE ATENCIÓN<br> 
+                                    <span class="telefono">(01)500 7878</span> 
+                                    <span data-toggle="modal" data-target="#modalTerminos">TÉRMINOS Y CONDICIONES</span>
+                                    </p>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+          </div> 
+
+          <div id="buscapedido" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                <div class="modal-header">BUSCAR PEDIDO
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+
+                  <div class="container" id="advanced-search-form">
+                          <h2></h2>
+                          <form id="frmPedido" name="frmPedido" >
+                              <div class="form-group">
+                                  <label for="first-name">Numero de Serie</label>
+                                  <input type="text" class="form-control" placeholder="N° serie" id="first-name">
+                              </div>
+                              <div class="form-group">
+                                  <label for="last-name">Numero de Guia</label>
+                                  <input type="text" class="form-control" placeholder="N° Guia" id="last-name">
+                              </div>
+                              <div class="form-group">
+                                  <label for="country">Codigo</label>
+                                  <input type="text" class="form-control" placeholder="Codigo" id="country">
+                              </div>                             
+                              <div class="clearfix"></div>
+                              <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search"> <span class="glyphicon glyphicon-search"></span> Buscar</button>
+                          </form>
+                      </div>
+              </div>
+           </div>
+        </div>
+</div>    
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/leonardoexpress.js"></script>
+</main>
+</body>
+</html>

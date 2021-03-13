@@ -1,0 +1,485 @@
+.titulo{
+    font-family: 'Montserrat';
+    font-style: italic;
+}
+
+#textNormal{
+    font-family: 'Montserrat'; 
+    color:#002a46; 
+    background-color: #002a46!important; 
+}
+
+.normal{
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 18px;
+}
+
+
+.container {
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container-serv{
+    max-width: 100%;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.container-dest{
+    max-width: 100%;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+
+.container-new{
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container-cont{
+    position: relative; 
+    justify-content:center;
+    max-width: 100%;
+    margin-right: 100px;
+    margin-left: 300px;
+    padding-right: 100px;
+    padding-left: 300px;  
+     
+}
+
+.container-mess{
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container-envios{
+    position: relative; 
+    justify-content:center;
+    max-width: 100%;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-right: 100px;
+    padding-left: 300px; 
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif; 
+    color:#002a46;
+  }
+
+  .fontcarusel{
+    font-family: 'Montserrat', sans-serif; 
+    color:#002a46;
+  }
+
+.box {
+    background: #fff;
+    border-radius: 6px;
+    padding-bottom: 100%;
+    font-family: 'Montserrat Bold', arial;
+ }
+
+ .option-container {
+    grid-area: opciones;
+    background: url(../images/IMG.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    z-index: 99999;
+}
+
+.option-grid {
+    max-width: 250px;
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(3,300px);
+    margin: 50px 20px;
+    column-gap: 70px;
+    row-gap: 60px;
+}
+
+#show-busqueda {
+    cursor: pointer;
+}
+
+.square.row-1 {
+    background-color:#009bdb;
+}
+
+.square img {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.square-title {
+    text-align: center;
+    line-height: 30px;
+}
+.c-white {
+    color: #fff;
+}
+.f-28 {
+    font-size: 28px;
+}
+.f-700 {
+    font-weight: 700;
+}
+.f-Fira {
+    font-family: Asap,sans-serif;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;
+    margin-left: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.footer-block {
+    background-color: #000;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+#modalTerminos {
+    color: black !important;
+}
+
+#modalTerminos {
+    z-index: 9999999999!important;
+}
+.fade:not(.show) {
+    opacity: 0;
+}
+.fade:not(.show) {
+    opacity: 0;
+}
+.modal {
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+.modal-title-terminos {
+    padding-left: 8.3rem;
+    font-family: 'Fira Sans', sans-serif !important;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: italic;
+    color: black;
+}
+.f-Fira {
+    font-family: Asap,sans-serif;
+}
+
+.bloque-direction {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 100px 4;
+    text-align: center;
+    column-gap: 0;
+}
+
+
+.menu-list-footer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 100px 6;
+    text-align: center;
+    column-gap: 0;
+}
+
+.line-white {
+    border-bottom: solid 1px #313131;
+}
+
+.bloque-direction {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 100px 4;
+    text-align: center;
+    column-gap: 0;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+}
+
+.none-link {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #5e72e4;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.social-icon {
+    columns: 10px 3;
+    text-align: center;
+    column-gap: 0;
+    width: 140px;
+}
+
+.col-2 col-md-2 col-10 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#menu-app {
+    width: 320px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow: overlay;
+    overflow-y: auto;
+    background-color: #fff;
+    position: absolute;
+    left: -320px;
+    z-index: 999;
+}
+
+.menu-header {
+    background-color: #ce2222;
+    height: 60px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.back-home {
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.list-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bloqueo-view {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #3f4950ad;
+    position: absolute;
+    z-index: 1;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+    padding-top: 0;
+    }
+
+    .imgnormalizada img {
+        width: auto;
+        height: 800px;
+        max-height: 800px;
+      }
+
+/* The sidepanel menu */
+.sidepanel {
+    height: 100%; /* Specify a height */
+    width: 200px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0a0a0a;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #0705ac;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+    color: rgb(248, 249, 252);
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(248, 248, 248);
+  }
+
+  
+.sidepanel .sidebar-header {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.featurette-heading{
+    top: 0px;
+    display: flex;
+    justify-content:center;
+}
+
+.collapse:not(.show) {
+    display: none;
+    
+}
+
+.bg-dark-1 {
+    background-color: #c2c3c4!important;
+    margin-top:-50px !important;
+}
+
+.shadow-sm {
+    box-shadow: 0rem .125rem .25rem #c2c3c4!important;
+}
+
+.bg-dark-2 {
+    background-color: #c2c3c4!important;
+    margin-top:-50px !important;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .8rem 1rem;
+}
+
+.central{
+    border-radius: 60px;
+    border:0px solid;
+    background-color:#f4c217;
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    height: 30px; 
+    width: 330px;
+    padding-left: 10px;
+    margin-left: 900px;
+    font-weight: 400;
+ }
+
+ .destinos{
+    border-radius: 60px;
+    border:0px solid;
+    background-color:#f4c217;
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    height: 35px; 
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+ }
+
+ .imgRedonda {
+    width:200px;
+    height:200px;
+    border-radius:150px;
+}
+
+
+
+
+

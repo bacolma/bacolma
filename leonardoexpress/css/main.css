@@ -1,0 +1,29 @@
+  .appWhatsapp{
+    position: fixed;
+    right: 26px;
+    bottom: 100px;
+    width: 60px;
+    z-index:1000px;
+   }
+   
+   .appWhatsapp img{
+     width:100%;
+     height: auto;
+   }
+
+   .avatar {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+
+#principal{
+  top:250px;
+  width:500px;
+  height:300px;
+  float:flex;
+
+}
+
+
+
